@@ -11,7 +11,7 @@ function App() {
       <section id="center">
 
        <Header></Header>
-       <Menu></Menu>
+  
       
       </section>
 

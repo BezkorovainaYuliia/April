@@ -1,8 +1,11 @@
+import Menu from './Menu.jsx'
+
 const Header = () => {
     return(<>
             <h1>
                 Header
             </h1>
+            <Menu className="test-class"></Menu>
         </>
     );
 }

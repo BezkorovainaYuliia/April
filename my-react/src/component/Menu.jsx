@@ -1,9 +1,9 @@
-const Menu = () =>{
+const Menu = ({className}) =>{
     return (
-        <div>
-            <ul>
+        <nav>
+            <ul className={className ?? ''}>
                 <li>
-                    <a href="">Home</a>
+                    <a href="" style={{color: "#f00"}}>Home</a>
                 </li>
                 <li>
                     <a href="">Contact Us</a>
@@ -12,7 +12,7 @@ const Menu = () =>{
                     <a href="">Privacy Policy</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     );
 }
 
