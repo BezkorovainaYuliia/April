@@ -1,7 +1,7 @@
 const Menu = ({className}) =>{
     return (
         <nav>
-            <ul className={className ?? ''}>
+            <ul className="">
                 <li>
                     <a href="" style={{color: "#f00"}}>Home</a>
                 </li>
